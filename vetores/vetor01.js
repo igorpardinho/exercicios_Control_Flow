@@ -1,9 +1,14 @@
 import leia from 'readline-sync'
 
-let listaNumeros = [2, 5, 1, 3, 4, 9, 7, 8, 10, 6]
+let listaNumeros = []
 
 let valor = 1;
 
+let numero = 0;
+for (let i = 0; i < 10; i++) {
+    numero = leia.questionInt(`digite o ${i +1} numero para preencher o array: `)
+    listaNumeros.push(numero)
+}
 
 while (valor > 0) {
 

@@ -8,8 +8,8 @@ let listaNumeros = [
 ]
 
 
-console.log(`${listaNumeros[0][0]} ${listaNumeros[1][1]} ${listaNumeros[2][2]}`)
-console.log(`${listaNumeros[0][2]} ${listaNumeros[1][1]} ${listaNumeros[2][0]}`)
+console.log(`Elementos da Diagonal Principal: ${listaNumeros[0][0]} ${listaNumeros[1][1]} ${listaNumeros[2][2]}`)
+console.log(`Elementos da Diagonal Secundario: ${listaNumeros[0][2]} ${listaNumeros[1][1]} ${listaNumeros[2][0]}`)
 
 
 let valor = 0
@@ -43,5 +43,5 @@ for (let i = 0; i < listaNumeros.length; i++) {
 let resultadoDiagonalPrincipal = valor + valor2 + valor3
 let resultadoDiagonalSecundaria = valor4 + valor5 + valor6
 
-console.log(resultadoDiagonalPrincipal)
-console.log(resultadoDiagonalSecundaria)
+console.log(`Soma dos Elementos da Diagonal Principal: ${resultadoDiagonalPrincipal}`)
+console.log(`Soma dos Elementos da Diagonal Secundária: ${resultadoDiagonalSecundaria}`)
