@@ -15,9 +15,6 @@ while (valor != "n") {
   }
 }
 
-console.log(`lista das cores: ${cores}\n`);
+console.log(`Lista das cores: ${cores}\n`);
 
-cores.sort().forEach((n) => console.log(`lista das cores ordenadas: ${n}`));
-
-
-
+console.log(`Lista das cores ordenadas: ${cores.sort()}`);

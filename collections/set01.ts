@@ -9,4 +9,9 @@ for (let i: number = 0; i < 10; i++) {
   numeros.add(numero);
 }
 
-console.log(numeros);
+
+
+console.log('Listar dados do Set:')
+for(let numero of numeros){
+    console.log(numero);
+}
